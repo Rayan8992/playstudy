@@ -1,0 +1,11 @@
+{
+    "name": "rayan/playstudy",
+    "autoload": {
+        "psr-4": {
+            "PlayStudy\\": "src/PlayStudy/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
