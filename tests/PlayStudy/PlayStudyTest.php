@@ -9,4 +9,9 @@ class PlayStudyTest extends TestCase {
         $p = new PlayStudy($c);
         $this->assertIsBool($p->solicitarTeste());
     }
+    public function test_adiciona_assert_simples()
+{
+    $this->assertTrue(true);
+}
+
 }
