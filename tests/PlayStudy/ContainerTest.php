@@ -8,4 +8,8 @@ class ContainerTest extends TestCase {
         $c->setNome('Rayan');
         $this->assertEquals('Rayan', $c->getNome());
     }
+    public function test_adiciona_assert_simples()
+{
+    $this->assertTrue(true);
+}
 }
