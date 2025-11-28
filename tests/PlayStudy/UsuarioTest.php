@@ -9,4 +9,8 @@ class UsuarioTest extends TestCase {
         $u = new Usuario($c);
         $this->assertInstanceOf(Container::class, $u->getContainer());
     }
+    public function test_adiciona_assert_simples()
+{
+    $this->assertTrue(true);
+}
 }
